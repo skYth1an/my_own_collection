@@ -1,0 +1,6 @@
+- name: test
+  hosts: localhost
+  connection: local
+
+  roles:
+    - module-role
